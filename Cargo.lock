@@ -8,3 +8,8 @@ dependencies = [
 ]
 
 [[package]]
+name = "adler32"
+version = "1.0.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]

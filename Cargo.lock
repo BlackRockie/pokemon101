@@ -56,3 +56,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "cfg-if"
 version = "0.1.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]

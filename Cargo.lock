@@ -114,3 +114,5 @@ dependencies = [
 ]
 
 [[package]]
+name = "crossbeam-utils"
+version = "0.6.3"

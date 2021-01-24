@@ -125,3 +125,5 @@ dependencies = [
 name = "crypto_module"
 version = "0.1.0"
 dependencies = [
+ "reqwest 0.9.5 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde 1.0.83 (registry+https://github.com/rust-lang/crates.io-index)",

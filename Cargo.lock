@@ -140,3 +140,5 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "encoding_rs"
 version = "0.8.13"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [

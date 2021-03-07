@@ -157,3 +157,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "foreign-types-shared 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
+
+[[package]]
+name = "foreign-types-shared"

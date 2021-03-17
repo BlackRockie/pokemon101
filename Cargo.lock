@@ -181,3 +181,5 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "futures"
 version = "0.1.25"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]

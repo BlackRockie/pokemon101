@@ -247,3 +247,6 @@ dependencies = [
  "tokio-threadpool 0.1.9 (registry+https://github.com/rust-lang/crates.io-index)",
  "tokio-timer 0.2.8 (registry+https://github.com/rust-lang/crates.io-index)",
  "want 0.0.6 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]

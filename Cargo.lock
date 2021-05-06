@@ -300,3 +300,5 @@ dependencies = [
 ]
 
 [[package]]
+name = "lazy_static"
+version = "1.2.0"

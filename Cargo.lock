@@ -316,3 +316,4 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "libflate"
+version = "0.1.19"

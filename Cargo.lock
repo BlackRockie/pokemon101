@@ -317,3 +317,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "libflate"
 version = "0.1.19"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "adler32 1.0.3 (registry+https://github.com/rust-lang/crates.io-index)",

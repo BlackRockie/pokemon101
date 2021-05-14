@@ -320,3 +320,5 @@ version = "0.1.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "adler32 1.0.3 (registry+https://github.com/rust-lang/crates.io-index)",
+ "byteorder 1.2.7 (registry+https://github.com/rust-lang/crates.io-index)",
+ "crc32fast 1.1.2 (registry+https://github.com/rust-lang/crates.io-index)",

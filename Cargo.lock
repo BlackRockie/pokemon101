@@ -391,3 +391,5 @@ dependencies = [
 [[package]]
 name = "mio-uds"
 version = "0.6.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [

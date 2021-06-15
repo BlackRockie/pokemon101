@@ -428,3 +428,5 @@ dependencies = [
 
 [[package]]
 name = "net2"
+version = "0.2.33"
+source = "registry+https://github.com/rust-lang/crates.io-index"

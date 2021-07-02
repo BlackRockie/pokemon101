@@ -466,3 +466,8 @@ dependencies = [
 name = "openssl-probe"
 version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "openssl-sys"
+version = "0.9.40"
+source = "registry+https://github.com/rust-lang/crates.io-index"

@@ -528,3 +528,6 @@ dependencies = [
  "phf_generator 0.7.23 (registry+https://github.com/rust-lang/crates.io-index)",
  "phf_shared 0.7.23 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
+
+[[package]]
+name = "phf_generator"

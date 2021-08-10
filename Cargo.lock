@@ -583,3 +583,5 @@ dependencies = [
 [[package]]
 name = "rand"
 version = "0.6.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [

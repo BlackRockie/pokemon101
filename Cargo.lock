@@ -670,3 +670,5 @@ dependencies = [
 name = "reqwest"
 version = "0.9.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "base64 0.9.3 (registry+https://github.com/rust-lang/crates.io-index)",

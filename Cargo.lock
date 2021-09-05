@@ -665,3 +665,8 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "winapi 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
+
+[[package]]
+name = "reqwest"
+version = "0.9.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"

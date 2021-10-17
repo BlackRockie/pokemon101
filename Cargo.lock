@@ -734,3 +734,8 @@ dependencies = [
  "libc 0.2.45 (registry+https://github.com/rust-lang/crates.io-index)",
  "security-framework-sys 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
+
+[[package]]
+name = "security-framework-sys"
+version = "0.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"

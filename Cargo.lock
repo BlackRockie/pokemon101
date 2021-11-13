@@ -779,3 +779,6 @@ version = "1.0.34"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "itoa 0.4.3 (registry+https://github.com/rust-lang/crates.io-index)",
+ "ryu 0.2.7 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde 1.0.83 (registry+https://github.com/rust-lang/crates.io-index)",
+]

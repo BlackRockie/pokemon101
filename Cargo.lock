@@ -782,3 +782,8 @@ dependencies = [
  "ryu 0.2.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde 1.0.83 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
+
+[[package]]
+name = "serde_urlencoded"
+version = "0.5.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"

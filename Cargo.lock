@@ -825,3 +825,8 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "syn"
 version = "0.15.23"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "proc-macro2 0.4.24 (registry+https://github.com/rust-lang/crates.io-index)",
+ "quote 0.6.10 (registry+https://github.com/rust-lang/crates.io-index)",
+ "unicode-xid 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",

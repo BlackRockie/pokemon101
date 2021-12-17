@@ -849,3 +849,6 @@ dependencies = [
 name = "time"
 version = "0.1.41"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "libc 0.2.45 (registry+https://github.com/rust-lang/crates.io-index)",
+ "redox_syscall 0.1.49 (registry+https://github.com/rust-lang/crates.io-index)",

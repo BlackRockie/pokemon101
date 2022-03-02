@@ -916,3 +916,4 @@ dependencies = [
 
 [[package]]
 name = "tokio-io"
+version = "0.1.10"

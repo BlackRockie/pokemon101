@@ -958,3 +958,5 @@ dependencies = [
 name = "tokio-threadpool"
 version = "0.1.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "crossbeam-deque 0.6.3 (registry+https://github.com/rust-lang/crates.io-index)",

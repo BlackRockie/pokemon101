@@ -970,3 +970,6 @@ dependencies = [
 
 [[package]]
 name = "tokio-timer"
+version = "0.2.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [

@@ -1015,3 +1015,7 @@ name = "toml"
 version = "0.4.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
+ "serde 1.0.83 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]

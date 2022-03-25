@@ -1028,3 +1028,5 @@ name = "unicase"
 version = "1.4.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
+ "version_check 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)",
+]

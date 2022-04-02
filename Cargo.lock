@@ -1061,3 +1061,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "unreachable"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "void 1.0.2 (registry+https://github.com/rust-lang/crates.io-index)",
+]

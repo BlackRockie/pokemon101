@@ -1079,3 +1079,6 @@ dependencies = [
 name = "uuid"
 version = "0.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "rand 0.5.5 (registry+https://github.com/rust-lang/crates.io-index)",
+]

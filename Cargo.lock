@@ -1077,3 +1077,5 @@ dependencies = [
 
 [[package]]
 name = "uuid"
+version = "0.7.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"

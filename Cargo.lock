@@ -1096,3 +1096,8 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "void"
 version = "1.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "want"
+version = "0.0.6"

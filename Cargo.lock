@@ -1141,3 +1141,4 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "ws2_32-sys"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [

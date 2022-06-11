@@ -1231,3 +1231,4 @@ dependencies = [
 "checksum schannel 0.1.14 (registry+https://github.com/rust-lang/crates.io-index)" = "0e1a231dc10abf6749cfa5d7767f25888d484201accbd919b66ab5413c502d56"
 "checksum scopeguard 0.3.3 (registry+https://github.com/rust-lang/crates.io-index)" = "94258f53601af11e6a49f722422f6e3425c52b06245a5cf9bc09908b174f5e27"
 "checksum security-framework 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)" = "697d3f3c23a618272ead9e1fb259c1411102b31c6af8b93f1d64cca9c3b0e8e0"
+"checksum security-framework-sys 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)" = "40d95f3d7da09612affe897f320d78264f0d2320f3e8eea27d12bd1bd94445e2"

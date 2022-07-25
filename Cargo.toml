@@ -3,3 +3,5 @@ name = "crypto_module"
 version = "0.1.0"
 authors = ["Drilon Buzuku <drilon.buku@gmail.com>"]
 edition = "2018"
+
+[

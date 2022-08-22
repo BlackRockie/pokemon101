@@ -5,4 +5,4 @@ authors = ["Drilon Buzuku <drilon.buku@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-reqwest = 
+reqwest = "0

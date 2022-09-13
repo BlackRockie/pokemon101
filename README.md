@@ -18,3 +18,4 @@ type = custom/script
 exec = ~/path/to/crypto_module/target/release/crypto_module
 interval = 600
 label-font = 3
+```

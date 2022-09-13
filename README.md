@@ -29,3 +29,7 @@ label-font = 3
 #### Example:
 
 ```
+let crypto_iso = String::from("btc");
+let fiat_iso = String::from("usd");
+let crypto_logo = String::from(" ");
+``` 

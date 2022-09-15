@@ -33,3 +33,7 @@ let crypto_iso = String::from("btc");
 let fiat_iso = String::from("usd");
 let crypto_logo = String::from(" ");
 ``` 
+
+```
+let crypto_iso = String::from("ltc");
+let fiat_iso = String::from("eur");

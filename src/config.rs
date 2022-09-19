@@ -1,2 +1,2 @@
 #[derive(Serialize, Deserialize, Debug)]
-pub
+pub struc

@@ -1,2 +1,2 @@
 #[derive(Serialize, Deserialize, Debug)]
-pub struct Co
+pub struct Config 

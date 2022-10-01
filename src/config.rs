@@ -1,3 +1,3 @@
 #[derive(Serialize, Deserialize, Debug)]
 pub struct Config {
-    pub cryp
+    pub crypto_

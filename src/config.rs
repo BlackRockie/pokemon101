@@ -1,3 +1,4 @@
 #[derive(Serialize, Deserialize, Debug)]
 pub struct Config {
-    pub crypto_iso: Strin
+    pub crypto_iso: String,
+ 

@@ -2,4 +2,4 @@
 pub struct Config {
     pub crypto_iso: String,
     pub fiat_iso: String,
-    pub cry
+    pub cryp

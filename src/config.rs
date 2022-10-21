@@ -5,4 +5,4 @@ pub struct Config {
     pub crypto_logo: String
 }
 
-pub fn g
+pub fn get_c

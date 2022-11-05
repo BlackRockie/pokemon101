@@ -6,4 +6,4 @@ pub struct Config {
 }
 
 pub fn get_config() -> Config {
-    let crypto_iso = String::
+    let crypto_iso = String::fro

@@ -8,4 +8,4 @@ pub struct Config {
 pub fn get_config() -> Config {
     let crypto_iso = String::from("btc");
     let fiat_iso = String::from("usd");
-    let crypto_logo =
+    let crypto_logo = St

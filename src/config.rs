@@ -10,4 +10,4 @@ pub fn get_config() -> Config {
     let fiat_iso = String::from("usd");
     let crypto_logo = String::from(" ");
 
-    let conf = Config {crypto_
+    let conf = Config {crypto_is

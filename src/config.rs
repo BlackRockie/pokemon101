@@ -11,4 +11,4 @@ pub fn get_config() -> Config {
     let crypto_logo = String::from(" ");
 
     let conf = Config {crypto_iso: crypto_iso, fiat_iso: fiat_iso, crypto_logo: crypto_logo};
-    c
+    conf

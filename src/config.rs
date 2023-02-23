@@ -13,3 +13,4 @@ pub fn get_config() -> Config {
     let conf = Config {crypto_iso: crypto_iso, fiat_iso: fiat_iso, crypto_logo: crypto_logo};
     conf
 }
+

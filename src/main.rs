@@ -11,3 +11,6 @@ mod config;
 #[derive(Serialize, Deserialize, Debug)]
 struct Crypto {
     ticker: Ticker,
+    success: bool,
+    error: String
+}

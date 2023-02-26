@@ -14,3 +14,5 @@ struct Crypto {
     success: bool,
     error: String
 }
+
+#[derive(Serialize, Deserialize, Debug)]

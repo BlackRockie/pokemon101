@@ -18,3 +18,7 @@ struct Crypto {
 #[derive(Serialize, Deserialize, Debug)]
 struct Ticker {
     base: String,
+    target: String,
+    price: String,
+    volume: String,
+    change: String 

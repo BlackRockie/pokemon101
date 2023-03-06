@@ -22,3 +22,7 @@ struct Ticker {
     price: String,
     volume: String,
     change: String 
+}
+
+fn main() {
+    let config = config::get_config();

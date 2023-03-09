@@ -26,3 +26,7 @@ struct Ticker {
 
 fn main() {
     let config = config::get_config();
+
+    let resp: Result<Crypto, reqwest::Error> = make_request(create_request_url(config.crypto_iso, config.fiat_iso));
+
+    match resp {

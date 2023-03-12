@@ -30,3 +30,7 @@ fn main() {
     let resp: Result<Crypto, reqwest::Error> = make_request(create_request_url(config.crypto_iso, config.fiat_iso));
 
     match resp {
+        Err(e) => handler(e),
+        Ok(resp) => print_crypto(config.crypto_logo, format_price(resp.ticker.price), format_target_currency(resp.ticker.target)),
+    }
+}

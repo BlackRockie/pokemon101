@@ -34,3 +34,7 @@ fn main() {
         Ok(resp) => print_crypto(config.crypto_logo, format_price(resp.ticker.price), format_target_currency(resp.ticker.target)),
     }
 }
+
+fn create_request_url(crypto_iso: String, fiat_iso: String) -> String {
+    return format!("https://api.cryptonator.com/api/ticker/{}-{}", &crypto_iso, &fiat_iso);
+}

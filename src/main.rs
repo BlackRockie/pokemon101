@@ -38,3 +38,7 @@ fn main() {
 fn create_request_url(crypto_iso: String, fiat_iso: String) -> String {
     return format!("https://api.cryptonator.com/api/ticker/{}-{}", &crypto_iso, &fiat_iso);
 }
+
+fn make_request(req_url: String) -> Result<Crypto, reqwest::Error> {
+    return reqwest::get(&req_url)?.json()
+}

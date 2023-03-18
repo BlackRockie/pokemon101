@@ -42,3 +42,5 @@ fn create_request_url(crypto_iso: String, fiat_iso: String) -> String {
 fn make_request(req_url: String) -> Result<Crypto, reqwest::Error> {
     return reqwest::get(&req_url)?.json()
 }
+
+fn convert_price(crypto_price: String) -> f64 {

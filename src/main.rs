@@ -44,3 +44,7 @@ fn make_request(req_url: String) -> Result<Crypto, reqwest::Error> {
 }
 
 fn convert_price(crypto_price: String) -> f64 {
+    return crypto_price.parse().unwrap();
+}
+
+fn format_price(price: String) -> String {

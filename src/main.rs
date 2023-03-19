@@ -48,3 +48,4 @@ fn convert_price(crypto_price: String) -> f64 {
 }
 
 fn format_price(price: String) -> String {
+    return format!("{:.*}", 2, convert_price(price));

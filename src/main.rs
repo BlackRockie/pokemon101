@@ -52,3 +52,5 @@ fn format_price(price: String) -> String {
 }
 
 fn format_target_currency(target: String) -> String {
+    return format!("{}", target);
+}

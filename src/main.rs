@@ -62,3 +62,6 @@ fn print_crypto(logo: String, price: String, target: String) {
 fn handler(e: reqwest::Error) {
    if e.is_http() {
        match e.url() {
+           None => println!("No Url given"),
+           Some(url) => println!("Problem making request to: {}", url),
+       }

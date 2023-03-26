@@ -56,3 +56,7 @@ fn format_target_currency(target: String) -> String {
 }
 
 fn print_crypto(logo: String, price: String, target: String) {
+    println!("{}{} {}", logo, price, target);
+}
+
+fn handler(e: reqwest::Error) {

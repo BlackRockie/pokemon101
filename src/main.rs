@@ -65,3 +65,8 @@ fn handler(e: reqwest::Error) {
            None => println!("No Url given"),
            Some(url) => println!("Problem making request to: {}", url),
        }
+   }
+   // Inspect the internal error and output it
+   if e.is_serialization() {
+      let serde_error = match e.get_ref() {
+           None => return,

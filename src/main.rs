@@ -70,3 +70,7 @@ fn handler(e: reqwest::Error) {
    if e.is_serialization() {
       let serde_error = match e.get_ref() {
            None => return,
+           Some(err) => err,
+       };
+       println!("problem parsing information {}", serde_error);
+   }

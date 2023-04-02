@@ -74,3 +74,4 @@ fn handler(e: reqwest::Error) {
        };
        println!("problem parsing information {}", serde_error);
    }
+   if e.is_redirect() {
